@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.sidebar-group {
+    @apply mt-7
+}
+
+.sidebar-group li {
+    @apply my-3 w-fit sm:w-48
+}
+
+.sidebar-group li a {
+    @apply flex items-center p-3 w-full h-full rounded-md bg-slate-800 opacity-40 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] hover:opacity-100 duration-100
+}
+
+.sidebar-group li a svg {
+    @apply mr-0 sm:mr-3
+}
+
+.sidebar-group li a p {
+    @apply text-white hidden sm:block
+}
+
+.dashboard-group {
+    @apply bg-slate-800 rounded-md p-6 w-full sm:w-72 h-28 m-3 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] flex items-center justify-between
+}
+
+.dashboard-group h1 {
+    @apply text-white font-bold text-lg
+}
+
+.dashboard-group h4 {
+    @apply text-white font-bold text-lg
+}
+
+.dashboard-group h2 {
+    @apply text-white font-bold text-lg
+}
