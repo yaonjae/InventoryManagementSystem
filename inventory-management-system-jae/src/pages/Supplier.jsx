@@ -228,7 +228,7 @@ const Supplier = () => {
                                     <textarea name="" id="" cols="30" rows="10" value={terms} onChange={(e) => setTerms(e.target.value)} className='h-[75px] w-full lg:w-72 xl:w-80 text-black p-2 rounded-md' ></textarea>
                                 </div>
                             </div>
-                            <div className='w-full lgw-80 p-2'>
+                            <div className='w-full lg:w-80 p-2'>
                                 <div className='w-full flex flex-col justify-end items-end h-full'>
                                     {notification &&
                                         <p className='text-white my-2 text-end'>{notification}</p>

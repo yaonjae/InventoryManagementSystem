@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    @apply bg-gradient-to-r from-neutral-700 to-neutral-900
+}
 
 .sidebar-group {
     @apply mt-7
@@ -13,6 +16,10 @@
 
 .sidebar-group li a {
     @apply flex items-center p-3 w-full h-full rounded-md bg-slate-800 opacity-40 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] hover:opacity-100 duration-100
+}
+
+.sidebar-group li a.active {
+    @apply opacity-100
 }
 
 .sidebar-group li a svg {
@@ -37,4 +44,179 @@
 
 .dashboard-group h2 {
     @apply text-white font-bold text-lg
+}
+
+.add-group {
+    @apply w-full flex my-2
+}
+
+.add-group label {
+    @apply w-56 text-white font-bold text-lg
+}
+
+.add-group input,
+.add-group select,
+.add-group textarea {
+    @apply w-80 text-black p-1 text-sm rounded-lg
+}
+
+.supplier-group {
+    @apply w-full flex my-2
+}
+
+.supplier-group label {
+    @apply w-56 text-white font-bold text-lg
+}
+
+.supplier-group input,
+.supplier-group select,
+.supplier-group textarea {
+    @apply w-80 text-black p-1 text-sm rounded-lg
+}
+
+.product-action {
+    @apply w-full h-full flex flex-row justify-end
+}
+
+.add-group textarea {
+    @apply h-24
+}
+
+.dashboard-total {
+    @apply w-64 h-32 bg-slate-800 rounded-lg p-4 flex justify-center items-center gap-2 shadow-[0_3px_10px_rgb(0,0,0,0.2)]
+}
+
+.dashboard-total h1 {
+    @apply text-white text-4xl font-bold
+}
+.dashboard-total h2 {
+    @apply text-white text-xl
+}
+
+.product-info {
+    @apply text-white gap-2 my-1
+}
+
+.product-info h1{
+    @apply text-sm font-bold
+}
+
+.product-info p{
+    @apply text-sm
+}
+
+.product-action{
+    @apply flex flex-row justify-end  items-end gap-2
+}
+
+.product-action button{
+    @apply bg-neutral-700 p-2 rounded-md
+}
+
+.cart-group-1 {
+    @apply text-white flex justify-between
+}
+
+.cart-group-1 h1 {
+    @apply font-bold
+}
+
+.cart-group-1 button {
+    @apply font-bold bg-neutral-800 w-full p-2 rounded-lg mt-2 hover:bg-green-800 duration-150 shadow-[0_3px_10px_rgb(0,0,0,0.2)]
+}
+
+.stock-group {
+    @apply flex justify-between w-full text-white
+}
+
+.stock-group h1 {
+    @apply font-bold
+}
+
+.pending-order-group {
+    @apply flex justify-between text-white text-sm
+}
+
+.profile-group div {
+    @apply text-white my-2 flex gap-2
+}
+
+.profile-group div .profile-head{
+    @apply font-bold
+}
+
+.profile-group-users{
+    @apply text-white my-2 flex gap-2
+}
+
+.profile-group-users .profile-head{
+    @apply font-bold
+}
+
+.profile-customer {
+    @apply text-white my-2 flex gap-2
+}
+
+.profile-customer h1{
+    @apply font-bold
+}
+
+.profile-customer-address {
+    @apply text-white my-2 flex flex-col gap-2 justify-between w-full
+}
+
+.profile-customer-address h1{
+    @apply font-bold
+}
+
+.register-group {
+    @apply flex flex-col w-full my-2
+}
+
+.register-group label {
+    @apply text-white font-bold
+}
+
+.register-group input {
+    @apply rounded-md p-2 bg-transparent border-b-2 text-white outline-none
+}
+
+.register-group select {
+    @apply rounded-md p-2 bg-transparent border-b-2 text-white outline-none
+}
+
+.register-group select option{
+    @apply rounded-md p-2 bg-transparent text-black outline-none
+}
+
+.register-group-password div input {
+    @apply rounded-md p-2 bg-transparent border-b-2 text-white outline-none
+}
+
+.register-group-password {
+    @apply flex gap-2
+}
+
+.register-group-password div {
+    @apply flex flex-col w-full my-2 relative
+}
+
+.register-group-password div label {
+    @apply text-white
+}
+
+.register-group-address div input {
+    @apply rounded-md p-2 bg-transparent border-b-2 text-white outline-none
+}
+
+.register-group-address {
+    @apply flex gap-2
+}
+
+.register-group-address div {
+    @apply flex flex-col w-full my-2 relative
+}
+
+.register-group-address div label {
+    @apply text-white
 }
