@@ -116,7 +116,7 @@ const ProfileCustomer = () => {
                 </div>
                 <div className='w-5/6 bg-slate-800 p-4 flex flex-col items-center lg:flex-row lg:items-start rounded-lg mt-5'>
                     <div className='w-72 flex justify-center'>
-                        <button className='w-44 h-44 bg-white rounded-full overflow-hidden'><img src={profileImage} alt="img" className='w-full h-full' /></button>
+                        <button className='w-44 h-44 bg-white rounded-full overflow-hidden'><img  alt="" className='w-full h-full' /></button>
                     </div>
                     <div className='w-full h-full px-7'>
                         <h1 className='text-white text-xl font-bold'>Personal Information:</h1>

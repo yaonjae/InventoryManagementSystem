@@ -121,7 +121,7 @@ const Shop = () => {
                             filteredProducts
                                 .filter((product) => product.quantity > 0)
                                 .map((product) => (
-                                    <div key={product.id} className='w-64 lg:w-72 h-[420px] bg-slate-800 p-3 rounded-md shadow-[0_3px_10px_rgb(0,0,0,0.2)]'>
+                                    <div key={product.id} className='w-56 lg:w-72 h-[420px] bg-slate-800 p-3 rounded-md shadow-[0_3px_10px_rgb(0,0,0,0.2)]'>
                                         <div className='w-full h-full flex flex-col'>
                                             <div className='flex flex-col'>
                                                 <div className='product-info'>

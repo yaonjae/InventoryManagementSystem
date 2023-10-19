@@ -261,7 +261,7 @@ const Profile = () => {
                 <div className='w-full flex flex-col lg:flex-row'>
                     <div className='w-full lg:w-[600px] flex flex-row lg:flex-col h-fit p-5 mb-4 xl:sticky xl:top-16 bg-slate-800 rounded-lg shadow-[0_3px_10px_rgb(0,0,0,0.2)]'>
                         <div className='w-full flex justify-center items-start lg:items-center'>
-                            <button className='w-44 h-44 bg-white rounded-full overflow-hidden'><img src={profileImage} alt="img" className='w-full h-full' /></button>
+                            <button className='w-44 h-44 bg-white rounded-full overflow-hidden'><img alt="" className='w-full h-full' /></button>
                         </div>
                         <div className='w-full flex flex-col justify-center items-center'>
                             <div className='profile-group'>
